@@ -2,115 +2,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Garage</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Garage</title>
+  <link rel="stylesheet" href="style.css">
+
 <style>
-   .features{
+  body{
+    background-image: url(./images/background.png);
+  }
+  .features {
     display: flex;
     gap: 50px;
     text-align: center;
     justify-content: center;
     padding: 40px;
-    flex-wrap:wrap;
-  
-   }
-   .vehicle{
-    max-width :500px; 
-   }
-   .vehicle img{
-    height:  300px;
+    flex-wrap: wrap;
+  }
+
+  .vehicle {
+    max-width: 500px;
+  }
+
+  .vehicle img {
+    height: 300px;
     width: 300px;
-  margin-bottom: 1px;
-  border-radius: 5px;
-  object-fit: cover;
-  
-   }
-   .vehicle h3{
-    color: brown ;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    object-fit: cover;
+    padding-bottom: 10px;
+  }
+
+  .vehicle h3 {
+    color: brown;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
-   }
-   img:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease-in-out;
-}
-       h1{
-        font: bold black ;
-        font-family:'Bebas Neue', sans-serif;
-        text-align: center;
-    }
-    p{
-        text-align: center;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color:  rgb(61, 132, 232) ;
+  }
 
-     }
+  img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
 
+  h1 {
+    font-weight: bold;
+    color: rgb(12, 218, 221);
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(61, 132, 232);
+  }
 </style>
+</head>
 <body>
-    <dev>
-        <h1>WelCome to my Garage</h1>
-        <p>Machines may have engines, but it's our passion that brings them to life.<br>
-           Every ride we take tells a story — of our grit, thrill, and love for the road.<br>
-           At AutoPulse, we don’t just drive... we live every journey.
-        </p>
-    </dev>
+  <div>
+    <h1>WelCome to my Garage</h1>
+    <p>
+      Machines may have engines, but it's our passion that brings them to life.<br>
+      Every ride we take tells a story — of our grit, thrill, and love for the road.<br>
+      At AutoPulse, we don’t just drive... we live every journey.
+    </p>
+  </div>
 
-    <div class="features">
-        <div class="vehicle">
-            <a href="./bike.html" target="_blank" style="text-decoration: none;" >
-            <img src="./images/index images/bike.jpg" alt="bikes" >
-            <h3>Bikes</h3>
-            </a>
-        </div>
-        <div class="vehicle">
-            <a href="./cars.html" target="_blank" style="text-decoration: none;" >
-            <img src="./images/index images/car.png" alt="cars">
-            <h3>Cars</h3></a>
-        </div>
-        <div class="vehicle">
-            <a href="./tracktor.html" target="_blank" style="text-decoration: none;" >
-            <img src="./images/index images/tractor.webp" alt="tractor">
-            <h3>Tractor</h3></a>
-        </div>
-        <div class="vehicle">
-            <a href="./rc vehicles.html" target="_blank" style="text-decoration: none;" >
-            <img src="./images/index images/RC-cars.jpg" alt="RC Vehicles">
-            <h3>RC vehicles</h3></a>
-        </div>
-        <div class="vehicle">
-            <a href="./bus.html" target="_blank" style="text-decoration: none;" >
-            <img src="./images/index images/bus.jpg" alt="Bus">
-            <h3>Bus</h3></a>
-        </div>
-        <div class="vehicle">
-            <a href="./aircrafts.html" target="_blank" style="text-decoration: none;" >
-            <img src="./images/index images/aircraft.jpg" alt="Aircraft">
-            <h3>Aircrafts</h3></a>
-        </div>
-        <div class="vehicle">
-            <a href="./lorrys.html" target="_blank" style="text-decoration: none;" >
-            <img src="./images/index images/lorry.webp" alt="lorry">
-            <h3>Lorrys</h3></a>
-        </div>
+  <div class="features">
+    <div class="vehicle">
+      <a href="./bike.html" target="_blank" style="text-decoration: none;">
+        <img src="./images/index images/bike.jpg" alt="bikes">
+        <h3>Bikes</h3>
+      </a>
     </div>
-        <footer>
-            <div class="footerbar">
-               <ul>
-                  <li><a href="./index.html">Home</a></li>
-                  <li><a href="./index.html">Services</a></li>
-                  <li><a href="./index.html">About</a></li>
-                  <li><a href="./index.html">Contact us</a></li>
-                  <li><a href="./index.html">Our Team</a></li>
-               </ul>
-            </div>
-            <div class="footerbottom">
-                <p>Copyright &copy;2025 Designed by <span>Raju</span> </p>
-            </div>
-        </footer>
-  
+    <div class="vehicle">
+      <a href="./cars.html" target="_blank" style="text-decoration: none;">
+        <img src="./images/index images/car.png" alt="cars">
+        <h3>Cars</h3>
+      </a>
+    </div>
+    <div class="vehicle">
+      <a href="./tracktor.html" target="_blank" style="text-decoration: none;">
+        <img src="./images/index images/tractor.webp" alt="tractor">
+        <h3>Tractor</h3>
+      </a>
+    </div>
+    <div class="vehicle">
+      <a href="./rc vehicles.html" target="_blank" style="text-decoration: none;">
+        <img src="./images/index images/RC-cars.jpg" alt="RC Vehicles">
+        <h3>RC vehicles</h3>
+      </a>
+    </div>
+    <div class="vehicle">
+      <a href="./bus.html" target="_blank" style="text-decoration: none;">
+        <img src="./images/index images/bus.jpg" alt="Bus">
+        <h3>Bus</h3>
+      </a>
+    </div>
+    <div class="vehicle">
+      <a href="./aircrafts.html" target="_blank" style="text-decoration: none;">
+        <img src="./images/index images/aircraft.jpg" alt="Aircraft">
+        <h3>Aircrafts</h3>
+      </a>
+    </div>
+    <div class="vehicle">
+      <a href="./lorrys.html" target="_blank" style="text-decoration: none;">
+        <img src="./images/index images/lorry.webp" alt="lorry">
+        <h3>Lorrys</h3>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footerbar">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./index.html">Services</a></li>
+        <li><a href="./index.html">About</a></li>
+        <li><a href="./index.html">Contact us</a></li>
+        <li><a href="./index.html">Our Team</a></li>
+      </ul>
+    </div>
+    <div class="footerbottom">
+      <p>Copyright &copy;2025 Designed by <span>Raju</span></p>
+    </div>
+  </footer>
 </body>
+
 </html>

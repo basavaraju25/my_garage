@@ -1,11 +1,11 @@
-<<<<<<< HEAD
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bikes</title>
-</head>
+    <link rel="stylesheet" href="style.css">
 <style>
     p{
         text-align: center;
@@ -38,7 +38,11 @@
      font-size: 20px;
      font-family: Georgia, 'Times New Roman', Times, serif;
     }
+    span{
+        padding-right: 10px;
+    }
 </style>
+</head>
 <body>
     <div>
         <p>
@@ -46,107 +50,59 @@
              where every throttle twist writes a new chapter of your story on the open road.
         </p>
     </div>
-    <div class="types">
+    <div class="types" onclick="this.classList.toggle('flip')">
         <div class="bike">
             <img src="./images/bike image/Honda_CBR_1000RR.webp" alt="bike">
-            <span>Super bike</span>
+            <span>Super bike</span> 
+             <audio controls autoplay>
+                <source src="./misic/cbr.mp3" type="audio/mpeg">
+               
+            </audio>
+        </div>
+       
+        <div class="bike">
+            <img src="./images/bike image/triumph.jpg" alt="Touring bike">
+            <span>Touring bike</span>
             <audio controls>
-                <source src="cbr_1100_xx.mp3" type="audio/mpeg">
-                <source src="file_example_OOG_1MG.ogg" type="audio/ogg">
+                <source src="./misic/triumph tiger.mp3"  type="audio/mpeg">
+            </audio>
+        </div>
+         <div class="bike">
+            <img src="./images/bike image/Kawasaki-KLX-110 off-road.avif" alt="Off-road bike">
+            <span>Off-Road bike</span>
+            <audio controls>
+                <source src="./misic/Off road.mp3" type="audio/mpeg">
             </audio>
         </div>
         <div class="bike">
-            <img src="./images/bike image/triumph.jpg" alt="Touring bike">
-            <span>Touring bike</span>
-        </div>
-         <div class="bike">
-            <img src="./images/bike image/Kawasaki-KLX-110 off-road.avif" alt="Off-road bike">
-            <span>Off-Road bike</span>
-        </div>
-        <div class="bike">
             <img src="./images/bike image/apriliasr160_Scooters.webp" alt="Scooters">
             <span>Scooters</span>
+            <audio controls>
+                <source src="./misic/Aprilia.mp3" type="audio/mpeg">
+            </audio>
         </div>
         <div class="bike">
             <img src="./images/bike image/electric bike.avif" alt="Electric bike">
             <span>Electric bike</span>
+            <audio controls>
+                <source src="./misic/electric bike.mp3" type="audio/mpeg">
+            </audio>
         </div>
     </div>
+     <footer>
+    <div class="footerbar">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./index.html">Services</a></li>
+        <li><a href="./index.html">About</a></li>
+        <li><a href="./index.html">Contact us</a></li>
+        <li><a href="./index.html">Our Team</a></li>
+      </ul>
+    </div>
+    <div class="footerbottom">
+      <p>Copyright &copy;2025 Designed by <span>Raju</span></p>
+    </div>
+  </footer>
 </body>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bikes</title>
-</head>
-<style>
-    p{
-        text-align: center;
-            font-weight: bold;
-            font-size: larger;
-            font-family:Georgia, 'Times New Roman', Times, serif;
-            color: rgb(101, 51, 202);
-    }
-    /* .types{
-        display: flex;
-        align-items:center ;
-        gap: 10px;
-        padding: 40px;
-        justify-content: center;
-    } */
-    .bike{
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        padding: 20px;
-    }
-    .types img{
-        padding-right: 20px;
-        height: auto;
-        max-width: 300px;
-        object-fit:fill;
-    }
-    .types span{
-      font-weight: bold;
-     font-size: 20px;
-     font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-</style>
-<body>
-    <div>
-        <p>
-             A bike isn’t just a machine—it's the freedom to fly on two wheels,<br>
-             where every throttle twist writes a new chapter of your story on the open road.
-        </p>
-    </div>
-    <div class="types">
-        <div class="bike">
-            <img src="./images/bike image/Honda_CBR_1000RR.webp" alt="bike">
-            <span>Super bike</span>
-            <!-- <audio controls>
-                <source src="cbr_1100_xx.mp3" type="audio/mpeg">
-                <source src="file_example_OOG_1MG.ogg" type="audio/ogg">
-            </audio> -->
-        </div>
-        <div class="bike">
-            <img src="./images/bike image/triumph.jpg" alt="Touring bike">
-            <span>Touring bike</span>
-        </div>
-         <div class="bike">
-            <img src="./images/bike image/Kawasaki-KLX-110 off-road.avif" alt="Off-road bike">
-            <span>Off-Road bike</span>
-        </div>
-        <div class="bike">
-            <img src="./images/bike image/apriliasr160_Scooters.webp" alt="Scooters">
-            <span>Scooters</span>
-        </div>
-        <div class="bike">
-            <img src="./images/bike image/electric bike.avif" alt="Electric bike">
-            <span>Electric bike</span>
-        </div>
-    </div>
-</body>
->>>>>>> c725a767c0c70aa0cdbe2ce0e53765645338ff45
+
 </html>
