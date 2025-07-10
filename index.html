@@ -1,132 +1,78 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Garage</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter to my page</title>
+    <style>
+          body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url(./images/backgrounds-wallpapers.avif);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
-<style>
-  body{
-    background-image: url(./images/background.png);
-  }
-  .features {
-    display: flex;
-    gap: 50px;
-    text-align: center;
-    justify-content: center;
-    padding: 40px;
-    flex-wrap: wrap;
-  }
+      .getin-box {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 300px;
+        }
 
-  .vehicle {
-    max-width: 500px;
-  }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
 
-  .vehicle img {
-    height: 300px;
-    width: 300px;
-    margin-bottom: 5px;
-    border-radius: 5px;
-    object-fit: cover;
-    padding-bottom: 10px;
-  }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #333;
+        }
 
-  .vehicle h3 {
-    color: brown;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: larger;
-  }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
 
-  img:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease-in-out;
-  }
+        .getin-btn {
+            margin-top: 20px;
+            width: 100%;
+            padding: 10px;
+            background: #007bff;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
 
-  h1 {
-    font-weight: bold;
-    color: rgb(12, 218, 221);
-    font-family: 'Bebas Neue', sans-serif;
-    text-align: center;
-  }
-
-  p {
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(61, 132, 232);
-  }
-</style>
+        .getin-btn:hover {
+            background: #0056b3;
+        }
+    </style>
 </head>
 <body>
-  <div>
-    <h1>WelCome to my Garage</h1>
-    <p>
-      Machines may have engines, but it's our passion that brings them to life.<br>
-      Every ride we take tells a story — of our grit, thrill, and love for the road.<br>
-      At AutoPulse, we don’t just drive... we live every journey.
-    </p>
-  </div>
+    <div>
+        <div class="getin-box">
+        <h2>Well Come</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
 
-  <div class="features">
-    <div class="vehicle">
-      <a href="./bike.html" target="_blank" style="text-decoration: none;">
-        <img src="./images/index images/bike.jpg" alt="bikes">
-        <h3>Bikes</h3>
-      </a>
+            <label for="nickname">Nick Name</label>
+            <input type="text" id="nickname" placeholder="Enter your nick name">
+            <button type="submit" class="getin-btn" ><a href="./main.html">Get in</a></button>
+          
+        </form>
     </div>
-    <div class="vehicle">
-      <a href="./cars.html" target="_blank" style="text-decoration: none;">
-        <img src="./images/index images/car.png" alt="cars">
-        <h3>Cars</h3>
-      </a>
     </div>
-    <div class="vehicle">
-      <a href="./tracktor.html" target="_blank" style="text-decoration: none;">
-        <img src="./images/index images/tractor.webp" alt="tractor">
-        <h3>Tractor</h3>
-      </a>
-    </div>
-    <div class="vehicle">
-      <a href="./rc vehicles.html" target="_blank" style="text-decoration: none;">
-        <img src="./images/index images/RC-cars.jpg" alt="RC Vehicles">
-        <h3>RC vehicles</h3>
-      </a>
-    </div>
-    <div class="vehicle">
-      <a href="./bus.html" target="_blank" style="text-decoration: none;">
-        <img src="./images/index images/bus.jpg" alt="Bus">
-        <h3>Bus</h3>
-      </a>
-    </div>
-    <div class="vehicle">
-      <a href="./aircrafts.html" target="_blank" style="text-decoration: none;">
-        <img src="./images/index images/aircraft.jpg" alt="Aircraft">
-        <h3>Aircrafts</h3>
-      </a>
-    </div>
-    <div class="vehicle">
-      <a href="./lorrys.html" target="_blank" style="text-decoration: none;">
-        <img src="./images/index images/lorry.webp" alt="lorry">
-        <h3>Lorrys</h3>
-      </a>
-    </div>
-  </div>
-
-  <footer>
-    <div class="footerbar">
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./index.html">Services</a></li>
-        <li><a href="./index.html">About</a></li>
-        <li><a href="./index.html">Contact us</a></li>
-        <li><a href="./index.html">Our Team</a></li>
-      </ul>
-    </div>
-    <div class="footerbottom">
-      <p>Copyright &copy;2025 Designed by <span>Raju</span></p>
-    </div>
-  </footer>
 </body>
-
 </html>
